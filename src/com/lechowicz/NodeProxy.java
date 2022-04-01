@@ -1,7 +1,7 @@
 package com.lechowicz;
 
 public class NodeProxy implements INode{
-    private INode element;
+    protected INode element;
 
     @Override
     public String getName() {

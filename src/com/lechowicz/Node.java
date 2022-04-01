@@ -1,6 +1,6 @@
 package com.lechowicz;
 
 public abstract class Node  implements INode{
-    private INode parent;
-    private String name;
+    protected INode parent;
+    protected String name;
 }

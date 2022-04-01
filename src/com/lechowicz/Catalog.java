@@ -3,7 +3,7 @@ package com.lechowicz;
 import java.util.List;
 
 public class Catalog extends Node{
-    private List<INode> list;
+    protected List<INode> list;
 
     public INode getElement(INode el){
         return null;
